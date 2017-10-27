@@ -1,0 +1,39 @@
+.header{
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  height: 75px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header h3{
+  color: MediumAquamarine;
+  display: inline;
+  align-items: center;
+  margin-left: 3px;
+}
+
+.header nav{
+  display: inline-block;
+}
+
+.header a{
+  color: black;
+  justify-content: space-between;
+  margin: 3px;
+  margin-right: 5px;
+  padding: 6px;
+}
+
+.logo{
+  display: inline-flex;
+  margin-left: 15px;
+}
