@@ -46,7 +46,8 @@
 .content{
   padding-top: 116px;
   display: flex;
-
+  margin: 0 auto 78px auto;
+  width: 1232px;
 }
 
 .content .large{
@@ -71,9 +72,6 @@
   margin-right: 32px;
 }
 
-.lead-story{
-
-}
 
 .img-content span{
   font-family: Georgia;
@@ -120,9 +118,8 @@ h2{
   background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
   height: 300px;
   border: 1px solid black;
-  display: block;
-  flex-direction: row;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
   margin-top: 15px;
 }
 
@@ -131,15 +128,16 @@ h2{
   font-weight: bold;
   font-size: 30px;
   color: white;
-
+  text-align: center;
 }
 
 .img-content-popculture{
   background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   height: 300px;
   border: 1px solid black;
-  display: block;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   margin-top: 15px;
 }
@@ -180,4 +178,39 @@ h2{
   display: block;
   border-bottom: 1px solid black;
   padding: 11px 20px;
+}
+
+/*footer*/
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  font-family: verdana;
+  font-size: 12px;
+}
+
+footer .title{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+}
+
+footer nav{
+  display: inline-block;
+  padding-left: 25px;
+  color: black;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+  color: black;
 }
